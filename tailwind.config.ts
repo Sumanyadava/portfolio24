@@ -6,8 +6,18 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode:'class',
   theme: {
     extend: {
+      animation: {
+        rotate: 'rotate 2s linear infinite',
+      },
+      keyframes: {
+        rotate: {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' },
+        },
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -15,6 +25,9 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    
+  ],
 };
+
 export default config;

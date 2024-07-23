@@ -31,3 +31,32 @@ body {
     text-wrap: balance;
   }
 }
+
+/* globals.css */
+
+html {
+  scrollbar-width:none;
+  scrollbar-color: black black;
+}
+/* 
+html::-webkit-scrollbar {
+  width: 8px; 
+}
+
+html::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Scrollbar track color *//*
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #888; /* Scrollbar thumb color *//*
+  border-radius: 4px; /* Scrollbar thumb rounded corners *//*
+  border: 2px solid #f1f1f1; /* Space around scrollbar thumb *//*
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: black; /* Scrollbar thumb hover color *//*
+}
+
+
+
+ */

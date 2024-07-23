@@ -29,7 +29,7 @@ const Footer = ({className}:{className?:string}) => {
     },
   ];
   return (
-    <nav className={cn("py-10 flex justify-between items-center",className)}>
+    <nav className={cn("py-10 flex justify-between items-center mx-10",className)}>
       <h1 className="text-2xl font-bold underline underline-offset-8 decoration-green-400 -rotate-2">
         {" "}
         Suman Yadav 👨‍💻

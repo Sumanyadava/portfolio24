@@ -42,7 +42,7 @@ export function Navbar({ className }: { className?: string }) {
       <Menu setActive={setActive} >
         <MenuItem setActive={setActive} active={active} item="Skills">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/web-dev">MERN Developer</HoveredLink>
+            <HoveredLink href="/web-dev">Full Stack Developer</HoveredLink>
             <HoveredLink href="/web-dev">Problem Solver</HoveredLink>
             <HoveredLink href="/interface-design">UI/UX</HoveredLink>
           </div>
@@ -52,28 +52,28 @@ export function Navbar({ className }: { className?: string }) {
         <MenuItem setActive={setActive} active={active} item="Projects">
           <div className="  text-sm grid grid-cols-2 gap-10 p-4">
             <ProductItem
-              title="Algochurn"
-              href="https://algochurn.com"
-              src="https://assets.aceternity.com/demos/algochurn.webp"
-              description="Prepare for tech interviews like never before."
+              title="Togo"
+              href="https://togo.vercel.app/"
+              src="https://i.pinimg.com/originals/37/ff/6f/37ff6f16ac3c1886d0729b0cf6375eb0.png"
+              description="Do your Goal setting like never before"
             />
             <ProductItem
-              title="Tailwind Master Kit"
-              href="https://tailwindmasterkit.com"
-              src="https://assets.aceternity.com/demos/tailwindmasterkit.webp"
-              description="Production ready Tailwind css components for your next project"
+              title=" Attendance portal"
+              href="https://emplog.vercel.app/"
+              src="https://i.pinimg.com/originals/02/56/46/025646b6e45c59f50e745d447a21072f.png"
+              description="3 level attendance process -> HR , Admin , Employee"
             />
             <ProductItem
-              title="Moonbeam"
-              href="https://gomoonbeam.com"
-              src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.51.31%E2%80%AFPM.png"
-              description="Never write from scratch again. Go from idea to blog in minutes."
+              title="AutoDesk"
+              href="https://www.youtube.com/watch?v=NOo1At5A-5E"
+              src="https://i.pinimg.com/originals/e7/3d/c2/e73dc20bbb057d8c82319ce3dc59e2cc.png"
+              description="A python automation app to set up your enviroment ."
             />
             <ProductItem
-              title="Rogue"
-              href="https://userogue.com"
-              src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.47.07%E2%80%AFPM.png"
-              description="Respond to government RFPs, RFIs and RFQs 10x faster using AI"
+              title="Resturant Website"
+              href="https://resturantwe.netlify.app/"
+              src="https://i.pinimg.com/originals/6f/c6/08/6fc608595ab4534f663e20f99bc9b346.jpg"
+              description="Simple frontend Resturant website using bootstrap and jquery"
             />
           </div>
         </MenuItem>

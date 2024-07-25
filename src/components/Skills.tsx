@@ -22,6 +22,8 @@ export function Skills() {
             <ol className="bg-blue-800 list-disc list-inside rounded-md">
               <li>HTML , Css , JavaScript</li>
               <li>React</li>
+              <li>React Native</li>
+              <li>Expo</li>
               <li>Redux</li>
               <li>Tailwind</li>
               <li>Sass</li>
@@ -29,13 +31,7 @@ export function Skills() {
               <li>Photoshop</li>
             </ol>
         </div>
-        <Image
-          src="/noise.webp"
-          width={500}
-          height={500}
-          alt="linear demo image"
-          className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-10 object-contain rounded-2xl"
-        />
+       
       </WobbleCard>
       <WobbleCard containerClassName="col-span-1 min-h-[300px] bg-pink-700">
         <h2 className="max-w-80  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
